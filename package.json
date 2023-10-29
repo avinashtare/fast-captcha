@@ -1,6 +1,6 @@
 {
   "name": "fast-captcha",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "By using 'Fast Captcha' you can enhance the security and user experience of your web application by adding CAPTCHA protection to your forms. This npm package simplifies the process of CAPTCHA generation and validation, helping you guard against automated spam and fraudulent submissions.",
   "main": "index.js",
   "scripts": {
