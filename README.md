@@ -25,9 +25,9 @@ console.log('CAPTCHA Data URL:', newCaptcha.imageData); // base64 image
 const { verifyCaptcha} = require('fast-captcha');
 
 const userAnswer = '1aOMC'; 
-const captchaId = newCaptcha.id; 
+const captchaId = 34;// enter you captcha id 
 
-const isVerified = .verifyCaptcha(captchaId, userAnswer);
+const isVerified = verifyCaptcha(captchaId, userAnswer);
 console.log('CAPTCHA Verification Result:', isVerified); // true or false
 
 if(isVerified){
